@@ -1,0 +1,120 @@
+.header-search .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+.header-search .header-limiter h1 {
+	float: middle;
+	font: sans-serif 120px;
+	line-height: 40px;
+	margin: 0;
+}
+
+.header-search .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The header links */
+
+.header-search .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* The search box */
+
+.header-search .header-limiter form {
+	float:right;
+	position: relative;
+	right: 30px;
+	margin-left: 40px;
+	border-radius: 3px;
+	background-color:  #3a3c3e;
+	width: 1000px;
+	height: 1000px;
+	cursor: pointer;
+
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+/* CSS search icon */
+
+.header-search .header-limiter form:before {
+	position: absolute;
+	content: '';
+	border-radius: 50%;
+	border: 2px solid #fff;
+	width: 20px;
+	height: 20px;
+	top: 12px;
+	left: 14px;
+}
+
+.header-search .header-limiter form:after {
+	position: absolute;
+	content: '';
+	background-color: #fff;
+	width: 2px;
+	height: 8px;
+	top: 22px;
+	left: 26px;
+	-webkit-transform: rotate(-44deg);
+	-moz-transform: rotate(-44deg);
+	transform: rotate(-44deg);
+}
+
+/* The search box */
+
+.header-search .header-limiter form input {
+	display: none;
+	position: absolute;
+	right: 42px;
+	padding: 11px 12px 9px;
+	border: none;
+	width: 210px;
+	border-radius: 2px 0 0 2px;
+	height: 39px;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+/* Making the header responsive. */
+
+@media all and (max-width: 600px) {
+
+	.header-search {
+		padding: 15px;
+		position: relative;
+	}
+
+	.header-search .header-limiter h1 {
+		float:none;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-search .header-limiter nav {
+		text-align: center;
+		float: none;
+		margin: 0;
+	}
+
+	.header-search .header-limiter nav a {
+		font-size: 40px;
+	}
+
+	.header-search .header-limiter form {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+}
