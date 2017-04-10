@@ -1,0 +1,37 @@
+.header-search .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+.header-search .header-limiter h1 {
+	float: middle;
+	font: sans-serif 120px;
+	line-height: 100px;
+	margin: 0;
+	font-size: 60px;
+	/*background-image: url(http://blog.redbubble.com/wp-content/uploads/2013/10/tweet_header_2.jpg)*/
+}
+
+.header-search .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The header links */
+
+.header-search .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#combo{
+ font-size: 20px;
+ width:130px;   
+}
+
+#button1{
+ font-size: 20px;
+ width:130px;   
+}

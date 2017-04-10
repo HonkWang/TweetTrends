@@ -1,0 +1,4 @@
+json
+tweepy
+boto3
+requests
